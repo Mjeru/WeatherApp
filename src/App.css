@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+body {
+    height: var(--doc-height);
+
+}
+
+#root {
+    background: var(--background);
+    align-items: center;
+}
+:root[data-theme="dark"] #root {
+    background-color: #100E1C;
+}
+
+
+@media (max-width: 1440px) {
+    #root {
+        align-items: flex-start;
+        min-height: unset;
+    }
+}
+
+

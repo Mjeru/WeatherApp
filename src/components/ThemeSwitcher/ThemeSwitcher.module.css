@@ -1,0 +1,36 @@
+.themeButton {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.themeButton path:first-child {
+    transition: stroke .2s;
+}
+
+.themeButton:hover path:first-child {
+    stroke: var(--gray);
+}
+
+.themeButton path:not(:first-child) {
+    transition: .2s;
+}
+
+:root[data-theme="dark"] .themeButton > :not(:first-child) {
+    display: flex;
+}
+
+:root[data-theme="dark"] .themeButton path:not(:first-child) {
+    transform: translateX(32px);
+    fill: #EC6E4D;
+}
+:root[data-theme="dark"] .themeButton path:last-child {
+    fill: #212331;
+}
+:root[data-theme="dark"] .themeButton path:first-child {
+    fill: #212331;
+}

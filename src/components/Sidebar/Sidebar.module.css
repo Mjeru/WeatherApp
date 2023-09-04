@@ -1,0 +1,183 @@
+.sidebar {
+    display: flex;
+    flex-grow: 1;
+    max-width: 460px;
+    overflow-y: auto;
+    height: 100%;
+}
+.sidebar__container {
+    padding-top: 42px;
+    position: relative;
+    flex-grow: 1;
+    min-height: 100%;
+    background-color: var(--white);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar__flexContainer {
+    width: 100%;
+}
+.sidebar__main {
+    background-color: var(--white);
+    min-height: 377px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/images/Cloud-background 1 (4)..png");
+    background-repeat: no-repeat;
+    background-position: center calc(50% - 80px);
+    background-blend-mode: difference;
+
+}
+.weatherTitle {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 900;
+    margin: 0 auto 17px;
+}
+
+.weatherTitle span {
+    font-size: 50px;
+
+    font-weight: 500;
+    margin-left: 10px;
+}
+.sidebar__icon {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-grow: 1;
+    background-position: center;
+}
+.subtitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 auto 4px;
+}
+.subtitle:first-letter {
+    text-transform: capitalize;
+}
+
+.description {
+    color: var(--hint);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 78px;
+
+}
+
+.date {
+    color: var(--hint);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.date span {
+    width: 50%;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    color: var(--hint);
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.location span {
+    padding: 0 5px;
+}
+
+.sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+.sidebar__header-button {
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: 2px solid var(--hint);
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 41px;
+}
+@media (max-width: 1440px) {
+    .sidebar__container {
+        display: flex;
+        flex-direction: column;
+        min-width: 329px;
+    }
+    .sidebar__header-button {
+        margin-left: 28px;
+    }
+    .sidebar__main {
+        background-position: center calc(50% - 80px);
+        background-image: url(../../assets/images/CloudsMobile.png);
+        flex-grow: 1;
+    }
+    .sidebar__icon {
+        flex-grow: 1;
+        background-position: center;
+
+    }
+    .sidebar__header {
+        padding-left: 28px;
+        padding-right: 21px;
+    }
+}
+@media (pointer: fine) and (max-width: 851px), (max-width: 834px) {
+
+    .sidebar__header {
+        padding-left: 28px;
+        padding-right: 21px;
+    }
+    .sidebar {
+        width: 100%;
+        max-width: none;
+        height: var(--doc-height);
+        margin-bottom: calc( 100vh - var(--doc-height));
+        transition: height, margin-bottom  .2s;
+    }
+    .sidebar__icon {
+        flex-grow: 1;
+        margin-bottom: -20px;
+    }
+
+    .sidebar__container {
+        padding-top: 31px;
+        height: var(--doc-height);
+        transition: height .5s;
+        min-height: 667px;
+    }
+    .weatherTitle {
+        margin-top: 0;
+    }
+    .date {
+        justify-content: center;
+    }
+    .date span {
+        width: 187px;
+    }
+}
+.sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

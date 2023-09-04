@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72681eef.css",
+    "main.js": "/static/js/main.783db207.js",
+    "static/js/787.693d0e26.chunk.js": "/static/js/787.693d0e26.chunk.js",
+    "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
+    "static/media/Rubik-Medium.ttf": "/static/media/Rubik-Medium.0e121b4fa4d6e9bc5c69.ttf",
+    "static/media/Rubik-Black.ttf": "/static/media/Rubik-Black.a41b3ae4e67200950946.ttf",
+    "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
+    "static/media/Rubik-Light.ttf": "/static/media/Rubik-Light.9d2ccd264dc61b954019.ttf",
+    "static/media/search.svg": "/static/media/search.d0103e6f8ba3d068ad2e.svg",
+    "index.html": "/index.html",
+    "static/media/wind.svg": "/static/media/wind.bf3aabf6328c65f1f9db97a010ade9cf.svg",
+    "static/media/close.svg": "/static/media/close.61fdf4f159fd7cdf3cb9.svg",
+    "static/media/closeDark.svg": "/static/media/closeDark.4b915122f567acdf9bef.svg",
+    "main.72681eef.css.map": "/static/css/main.72681eef.css.map",
+    "main.783db207.js.map": "/static/js/main.783db207.js.map",
+    "787.693d0e26.chunk.js.map": "/static/js/787.693d0e26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72681eef.css",
+    "static/js/main.783db207.js"
+  ]
+}

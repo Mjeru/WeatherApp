@@ -1,0 +1,35 @@
+@import "fonts/stylesheet.css";
+@import "css/normalize.css";
+
+:root {
+    --accent: #EC6E4D;
+    --background: #f1f1f1;
+    --gray: #48484A;
+    --hint: #ACACAC;
+    --light-gray: #E6E6E6;
+    --panel: #FFFFFF;
+    --white: #fff;
+    --dark-background: #D3D3D3;
+    --bar-background: #D3D3D3;
+    --shadow: rgba(0, 0, 0, 0.05);
+    color: var(--gray);
+    font-family: 'Rubik', serif;
+    font-style: normal;
+    --doc-height: 100%;
+}
+
+
+:root[data-theme="dark"] {
+    --accent: #EC6E4D;
+    --background: #100E1C;
+    --gray: #E6E6E6;
+    --hint: #ACACAC;
+    --light-gray: #E6E6E6;
+    --bar-background: #E6E6E6;
+    --panel: #212331;
+    --white: #212331;
+    --dark-background: #D3D3D3;
+    --shadow: rgba(0, 0, 0, 0.05);
+    color: var(--gray);
+
+}
